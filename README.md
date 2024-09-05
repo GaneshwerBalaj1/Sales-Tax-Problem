@@ -61,6 +61,6 @@ Console.WriteLine($"Other Item Tax: {otherItem.CalculateTax()}");  // Output: 3.
 
 Installation
 Clone the repository and build the project using .NET8 development environment.
-git clone https://github.com/yourusername/sales-tax-problem.git
+git clone https://github.com/GaneshwerBalaj1/Sales-Tax-Problem
 cd sales-tax-calculator
 dotnet build
