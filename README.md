@@ -57,7 +57,7 @@ var otherItem = new OtherItem("Boat Rockerz 450", true, 20.00m, 1);
 Console.WriteLine($"Book Tax: {book.CalculateTax()}");  // Output: 0.00
 Console.WriteLine($"Food Tax: {food.CalculateTax()}");  // Output: 0.15
 Console.WriteLine($"Medical Tax: {medical.CalculateTax()}");  // Output: 0.00
-Console.WriteLine($"Other Item Tax: {otherItem.CalculateTax()}");  // Output: 2.05
+Console.WriteLine($"Other Item Tax: {otherItem.CalculateTax()}");  // Output: 3.00
 
 Installation
 Clone the repository and build the project using .NET8 development environment.
