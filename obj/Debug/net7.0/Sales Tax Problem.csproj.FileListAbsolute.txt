@@ -1,0 +1,30 @@
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.csproj.AssemblyReference.cache
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.AssemblyInfoInputs.cache
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.AssemblyInfo.cs
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.csproj.CoreCompileInputs.cache
+D:\Sales Tax Problem\bin\Debug\net7.0\Sales Tax Problem.exe
+D:\Sales Tax Problem\bin\Debug\net7.0\Sales Tax Problem.deps.json
+D:\Sales Tax Problem\bin\Debug\net7.0\Sales Tax Problem.runtimeconfig.json
+D:\Sales Tax Problem\bin\Debug\net7.0\Sales Tax Problem.dll
+D:\Sales Tax Problem\bin\Debug\net7.0\Sales Tax Problem.pdb
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.dll
+D:\Sales Tax Problem\obj\Debug\net7.0\refint\Sales Tax Problem.dll
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.pdb
+D:\Sales Tax Problem\obj\Debug\net7.0\Sales Tax Problem.genruntimeconfig.cache
+D:\Sales Tax Problem\obj\Debug\net7.0\ref\Sales Tax Problem.dll
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net7.0\Sales Tax Problem.exe
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net7.0\Sales Tax Problem.deps.json
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net7.0\Sales Tax Problem.runtimeconfig.json
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net7.0\Sales Tax Problem.dll
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net7.0\Sales Tax Problem.pdb
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.csproj.AssemblyReference.cache
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.AssemblyInfoInputs.cache
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.AssemblyInfo.cs
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.csproj.CoreCompileInputs.cache
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.dll
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\refint\Sales Tax Problem.dll
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.pdb
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\Sales Tax Problem.genruntimeconfig.cache
+D:\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net7.0\ref\Sales Tax Problem.dll
