@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\itemtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:itemtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\availableitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:availableitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:taxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|d:\\shamla\\sales-tax-calculator\\sales-tax-problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EACE23A-4D10-40CD-8205-141219A30CF6}|Sales Tax Problem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemTypes.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\ItemTypes.cs",
+              "RelativeDocumentMoniker": "ItemTypes.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\ItemTypes.cs",
+              "RelativeToolTip": "ItemTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:36:04.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:24:31.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemFactory.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\ItemFactory.cs",
+              "RelativeDocumentMoniker": "ItemFactory.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\ItemFactory.cs",
+              "RelativeToolTip": "ItemFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:24:31.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AvailableItems.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\AvailableItems.cs",
+              "RelativeDocumentMoniker": "AvailableItems.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\AvailableItems.cs",
+              "RelativeToolTip": "AvailableItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T18:58:11.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaxCalculator.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\TaxCalculator.cs",
+              "RelativeDocumentMoniker": "TaxCalculator.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\TaxCalculator.cs",
+              "RelativeToolTip": "TaxCalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:49:52.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Receipt.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Receipt.cs",
+              "RelativeDocumentMoniker": "Receipt.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Receipt.cs",
+              "RelativeToolTip": "Receipt.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAIA8wCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:24:31.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputHandler.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\InputHandler.cs",
+              "RelativeDocumentMoniker": "InputHandler.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\InputHandler.cs",
+              "RelativeToolTip": "InputHandler.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:49:18.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Shamla\\Sales-Tax-Calculator\\Sales-Tax-Problem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T17:24:31.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

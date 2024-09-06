@@ -1,66 +1,109 @@
-# Sales Tax Problem
+# Inventory Management System
 
 ## Overview
 
-This project is a scalable and modular solution for calculating sales tax. It is designed to handle various types of items, including books, food, medical supplies, and other general items, with support for imported items and different tax rates.
+This Inventory Management System is a C# application designed to handle item input, categorize items, calculate taxes, and generate receipts.
+## Components
 
-## Features
+### Models
 
-- **Item Types**: Supports Book, Food, Medical, and Other items. Can be scaled in future.
-- **Tax Calculation**: Computes tax based on item type and import status.
-- **Modularity**: Easily extendable to include more item types and tax rules.
-- **Round-Up**: Tax values are rounded up to the nearest 0.05.
+- **Item**: Represents an item with properties like `ItemName`, `IsItemImported`, `ItemCost`, `Quantity`, and `ItemType`.
+- **IItemFactory**: Factory interface for creating items.
+- **IItemIdentifier**: Interface for determining item types.
+- **ITaxType**: Interface for tax calculation types (e.g., `SalesTax`, `ImportDuty`).
+- **ITaxCalculator**: Interface for tax calculation.
 
-## Structure
+### Services
 
-### Namespace
+- **ConsoleInputHandler**: Handles processing of input lines to create items.
+- **ConsoleInputSource**: Reads input from the console.
+- **InputParser**: Parses input lines to extract item details using regex and item identifier.
+- **Receipt**: Generates and prints a receipt based on items and taxes.
+- **RegexProviderConsole**: Provides regex pattern for input parsing.
+- **TaxCalculator**: Calculates the total tax based on a list of tax types.
 
-The project uses the `InventoryManagement.Models` and `InventoryManagement.Services` namespace to organize different classes and enumerations.
+### Interfaces
 
-### Classes
+- **IInputHandler**: Interface for handling input processing.
+- **IInputParser**: Interface for parsing input lines.
+- **IInputSource**: Interface for input source (e.g., console).
+- **IRegexProvider**: Interface for providing regex patterns.
+- **ITaxType**: Interface for defining tax calculation types.
+- **ITaxCalculator**: Interface for calculating tax.
 
-- **`Item`**: Abstract base class representing a general item with common properties and tax calculation logic.
-- **`Book`**: Inherits from `Item` and represents a book item.
-- **`Food`**: Inherits from `Item` and represents a food item.
-- **`Medical`**: Inherits from `Item` and represents a medical item.
-- **`OtherItem`**: Inherits from `Item` and represents any other item.
+### Tax Types
 
-### Enumerations
+- **SalesTax**: Calculates sales tax for items classified as "Other".
+- **ImportDuty**: Calculates import duty for imported items.
 
-- **`ItemType`**: Enum defining various item types:
-  - `Book`
-  - `Food`
-  - `Medical`
-  - `Other`
+## Installation and Setup
 
-## Tax Calculation
+1. **Prerequisites**:
+   - Ensure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+   - Use an IDE or code editor like [Visual Studio](https://visualstudio.microsoft.com/), [Visual Studio Code](https://code.visualstudio.com/), or [JetBrains Rider](https://www.jetbrains.com/rider/).
 
-The tax calculation logic considers whether an item is imported and its type. The tax rates are as follows:
+2. **Clone or Download the Repository**:
+   - Clone the repository from GitHub:
+     ```sh
+     git clone https://github.com/GaneshwerBalaj1/Sales-Tax-Problem.git
+     ```
+   - Alternatively, download the code as a ZIP file from the repository and extract it.
 
-- **Import Duty**: 5% for imported items.
-- **Sales Tax**:
-  - 10% for other items.
-  - 0% for books, food, and medical supplies.
+3. **Open the Project**:
+   - Open your project in your chosen IDE or code editor. If you’re using Visual Studio, open the `.sln` (solution) file.
 
-### Rounding
+4. **Build the Project**:
+   - Build the project to ensure that everything is set up correctly:
+     ```sh
+     dotnet build
+     ```
 
-Tax amounts are rounded up to the nearest 0.05 using the `RoundUpToNearest05` method to ensure that the final tax amount is always a multiple of 0.05.
+## Running the Application
 
-## Example Usage
+1. **Run the Application**:
+   - Run the application using the following command:
+     ```sh
+     dotnet run
+     ```
+
+2. **Provide Input**:
+   - The application will prompt you to enter item details in the console. Enter the details as specified in your `RegexProviderConsole` regex pattern, for example:
+     ```
+     1 book at 12.49
+     1 imported box of chocolates at 10.00
+     1 bottle of perfume at 47.50
+     ```
+   - Press Enter on an empty line to finish input.
+
+3. **View Output**:
+   - After providing the input, the application will display the receipt, including item details and calculated taxes.
+
+## Example
+
+Here is how the program is structured and executed:
 
 ```csharp
-var book = new Book("Rich Dad Poor Dad", false, 10.99m, 2);
-var food = new Food("Avacado", true, 1.50m, 10);
-var medical = new Medical("Paracetamol", false, 5.00m, 1);
-var otherItem = new OtherItem("Boat Rockerz 450", true, 20.00m, 1);
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        IItemFactory itemFactory = new ItemFactory();
+        IInputSource consoleInputSource = new ConsoleInputSource();
+        List<ITaxType> taxes = new();
+        ITaxType salesTax = new SalesTax(0.1m);
+        ITaxType importDuty = new ImportDuty(0.05m);
+        taxes.Add(salesTax);
+        taxes.Add(importDuty);
+        ITaxCalculator taxCalculator = new TaxCalculator(taxes);
 
-Console.WriteLine($"Book Tax: {book.CalculateTax()}");  // Output: 0.00
-Console.WriteLine($"Food Tax: {food.CalculateTax()}");  // Output: 0.15
-Console.WriteLine($"Medical Tax: {medical.CalculateTax()}");  // Output: 0.00
-Console.WriteLine($"Other Item Tax: {otherItem.CalculateTax()}");  // Output: 3.00
+        IItemIdentifier itemIdentifier = new ItemIdentifier();
+        IRegexProvider consoleRegexProvider = new RegexProviderConsole();
+        IInputParser inputParser = new InputParser(consoleRegexProvider, itemIdentifier);
+        IInputHandler consoleInputHandler = new ConsoleInputHandler();
 
-Installation
-Clone the repository and build the project using .NET8 development environment.
-git clone https://github.com/GaneshwerBalaj1/Sales-Tax-Problem
-cd sales-tax-calculator
-dotnet build
+        var inputLines = consoleInputSource.GetInput();
+        var items = consoleInputHandler.ProcessInput(inputLines, itemFactory, inputParser);
+        var receipt = new Receipt(items, taxCalculator);
+        receipt.Print();
+    }
+}

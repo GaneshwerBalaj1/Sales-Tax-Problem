@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sales Tax Problem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07a4034b6e07f273147f5da1e125d709aea1bdc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sales Tax Problem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sales Tax Problem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

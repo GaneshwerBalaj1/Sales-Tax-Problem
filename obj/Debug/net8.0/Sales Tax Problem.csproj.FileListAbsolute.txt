@@ -26,3 +26,18 @@ D:\Shamla\Sales Tax Problem\bin\Debug\net8.0\Sales Tax Problem.dll
 D:\Shamla\Sales Tax Problem\bin\Debug\net8.0\Sales Tax Problem.pdb
 D:\Shamla\Sales Tax Problem\obj\Debug\net8.0\Sales Tax Problem.genruntimeconfig.cache
 D:\Shamla\Sales Tax Problem\obj\Debug\net8.0\ref\Sales Tax Problem.dll
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net8.0\Sales Tax Problem.exe
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net8.0\Sales Tax Problem.deps.json
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net8.0\Sales Tax Problem.runtimeconfig.json
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net8.0\Sales Tax Problem.dll
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\bin\Debug\net8.0\Sales Tax Problem.pdb
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.AssemblyInfoInputs.cache
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.AssemblyInfo.cs
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.csproj.CoreCompileInputs.cache
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.sourcelink.json
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.dll
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\refint\Sales Tax Problem.dll
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.pdb
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\Sales Tax Problem.genruntimeconfig.cache
+D:\Shamla\Sales-Tax-Calculator\Sales-Tax-Problem\obj\Debug\net8.0\ref\Sales Tax Problem.dll
